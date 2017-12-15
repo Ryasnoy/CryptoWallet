@@ -4,10 +4,95 @@
   /*For some browser*/
   margin: 0;
   padding: 0;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #333;
+  background: #f7f7f7;
+  font-size: 1em;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 135%;
+}
+
+a {
+  color: #e8561f;
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+}
+
+a:hover {
+  color: #e8c21f;
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+
+}
+
+a:active {
+  color: #eaebe2
+}
+
+/* Selection Block*/
+::selection {
+  background: #e8561f;
+  color: white;
+}
+
+::-moz-selection {
+  background: #e8561f;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
 
 header, footer {
-  width: 100%;
+  width: 98%;
   background-color: white;
-  min-height: 
+  /*min-height: 50px;/*For dynamic*/*/
+}
+
+header {
+  padding: 1%;
+  border-bottom: 2px solid silver;
+}
+
+#logo {
+  font-size: 2em;
+  font-family: Menlo,sans-serif;
+  color: silver;
+}
+
+#contact {
+  font-size: 1.5em;
+  font-family: Menlo,sans-serif;
+  margin-left: 20px;
+}
+
+input[type=text].field {
+  border-radius: 2px;
+  border: 2px solid silver;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+input[type=text].field:focus {
+  border: 2px solid #e8561f;
+}
+
+footer {
+  padding: 1%;
+  border-top: 2px solid silver;
+  margin-top: 10px;
 }
