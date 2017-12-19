@@ -7,6 +7,10 @@
   outline: none;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -15,6 +19,14 @@ body {
   font-size: 1em;
   font-family: "Segoe UI", sans-serif;
   line-height: 135%;
+}
+
+hr {
+  display: block;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid #ccc;
+  padding: 0;
 }
 
 a {
@@ -60,6 +72,7 @@ img {
 header, footer {
   width: 98%;
   background-color: white;
+  float: left;
   /*min-height: 50px;/*For dynamic*/*/
 }
 
@@ -74,10 +87,61 @@ header {
   color: silver;
 }
 
-#contact {
+.contact {
   font-size: 1.5em;
   font-family: Menlo,sans-serif;
   margin-left: 20px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.page-wrap:after, footer {
+  height: 10px;
+}
+
+.page-wrap {
+  min-height: 94%;
+  margin-bottom: -10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.menu {
+  color: #063547;
+  font-family: Menlo,sans-serif;
+  font-size: 1.7em;
+}
+
+.menu, hr {
+  width: 500px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.menuHrefs a {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  color: #266fa4;
+}
+
+.menuHrefs a:hover {
+  background-color: #098efb;
+  color: white;
 }
 
 input[type=text].field {
@@ -95,4 +159,10 @@ footer {
   padding: 1%;
   border-top: 2px solid silver;
   margin-top: 10px;
+}
+
+footer img {
+  width: 5%;
+  float: left;
+  margin-right: 5px;
 }
