@@ -269,3 +269,56 @@ footer img {
 .aboutUs p a:hover {
   color: #275755;
 }
+
+/* Feedback.html */
+.sendFeedback {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.sendFeedback input {
+  border-radius: 2px;
+  border: 2px solid silver;
+  padding: 5px;
+  /* margin-left: 20px; */
+  clear: both;
+  width: 40%;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+}
+
+.sendFeedback input:focus {
+  border: 2px solid #e8561f;
+}
+
+.sendFeedback label, textarea {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.sendFeedback textarea {
+  width: 60%;
+  float: left;
+  clear: both;
+  background-color: #fafafa;
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.7em;
+}
+
+.sendFeedback #send {
+  float: left;
+  padding: 10px;
+  background-color: #af9421;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.sendFeedback #send:hover {
+  background-color: #4eaf21;
+}

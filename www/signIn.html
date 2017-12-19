@@ -7,7 +7,7 @@
     <meta name="author" content="ryasnoy">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <title>About Us</title>
+    <title>Sign In</title>
   </head>
   <body>
 
@@ -34,9 +34,13 @@
 
       <div class="wrapper">
           <div class="articles">
-            <div class="aboutUs">
-              <p>Created by Ryasnoy<br> <a href="https://github.com/Ryasnoy/CryptoWallet">Source Code on GitHub.com</a> </p>
-            </div>
+            <form class="sendFeedback" action="" method="post">
+              <label for="name">Login</label>
+              <label><input type="text" id="name" placeholder="Nickname"></label>
+              <label for="password">Password</label>
+              <label><input type="password" id="password" placeholder="Password"></label>
+              <input type="submit" name="send" id= "send" value="Sign In">
+            </form>
           </div>
       </div>
     </div>
