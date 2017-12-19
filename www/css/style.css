@@ -84,8 +84,15 @@ header {
 #logo {
   font-size: 2em;
   font-family: Menlo,sans-serif;
-  color: silver;
+  color: #114978;
 }
+
+#logo: hover {
+  font-size: 2em;
+  font-family: Menlo,sans-serif;
+  color: #c36a18;
+}
+
 
 .contact {
   font-size: 1.5em;
@@ -240,4 +247,25 @@ footer img {
   width: 5%;
   float: left;
   margin-right: 5px;
+}
+
+
+/* About.html */
+.aboutUs {
+  width: 100%;
+  float: left;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  padding: 1%;
+  text-align: center;
+}
+
+.aboutUs p a {
+  color: #3cb91d;
+}
+
+.aboutUs p a:hover {
+  color: #275755;
 }
